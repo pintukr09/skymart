@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR FEATURES</title>
+    <link rel="stylesheet" href="g.css">
+</head>
+<body>
+ <!--Our Featurs Start-->
+
+ <section class=features id="features">
+    <h1 class="heading"> Our <span> Features</span></h1>
+    <div class="box">
+        <div class="box-container">
+          <div class="box">
+            <img src="feature-img-1.png" alt="">
+          </div>
+        
+            <h3>Fresh and Organic</h3>
+            <p>The ordered product is fully organic and contains minerals and nutrients and are pure fresh.</p>
+            <button class="features-btn">Read More</button>
+
+    </div> 
+
+    </div>
+
+ </section>
+            <!--Our Features End -->
+
+
+   <section class=features id="features">
+    <div class="box">
+        <div class="box-container">
+          <div class="box">
+            <img src="feature-img-2.png" alt="">
+          </div>
+        
+            <h3>Free Delivery</h3>
+            <p>receiving your purchases quickly after ordering them online.</p>
+            <button class="features-btn">Read More</button>
+    </div> 
+
+    </div>
+
+ </section>
+
+    <section class=features id="features">
+    <div class="box">
+        <div class="box-container">
+          <div class="box">
+            <img src="feature-img-3.png" alt="">
+          </div>
+        
+            <h3>Easy Payments</h3>
+            <p>The plan that converts a retail purchase amount charged to a card inti monthly instalment payment with an agreed instalment payment period.</p>
+            <button class="features-btn">Read More</button>
+        </div> 
+    </div>
+</section>
+
+
+</body>
+</html>
+
+
+
+css
+
+/*Our Features Start */
+.features{
+  padding: 2rem 9%;
+}
+.heading{
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 3.5rem;
+  padding-bottom: 3rem;
+  color:black;
+}
+.heading span{
+  background:#7400b8;
+  color: #fff;
+  display: inline-block;
+  padding: .5rem;
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.features-btn{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: .8rem 3rem;
+  font-size: 1.6rem;
+  border-radius: .5rem;
+  border: 2px solid black;
+  color: black;
+  cursor: pointer;
+  background: none;
+
+
+}
+.features-btn:hover{
+  background: green;
+  color: #fff;
+
+
+}
+/*Our Features End */
+
+.features .box {
+  border: 0px solid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+  gap: 1.5rem;
+}
+.features .box .box-container {
+  border: 0px solid red;
+  padding: 3rem 2rem;
+  background: white;
+  outline: outset;
+  outline-offset: -1rem;
+  text-align: center;
+  box-shadow: black;
+}
+
+.features .box .box-container {
+  box-shadow: 1px 1px 10px 1px green;
+} 
+
+.features .box .box-container {
+  margin: 1rem 0;
+}
+
+
+

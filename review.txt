@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Section</title>
+    <link rel="stylesheet" href="rev.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="review" id="review">
+        <h1 class="heading">Customer's <span>Review</span></h1>
+        <div class="review-slider">
+            <div class="wrapper">
+                <div class="box">
+                    <img src="pic-2.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h3>Kajal Gupta</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="review" id="review">
+    <div class="review-slider">
+        <div class="wrapper">
+            <div class="box">
+                <img src="pic-4.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Alisha khanam</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="review" id="review">
+    <div class="review-slider">
+        <div class="wrapper">
+            <div class="box">
+                <img src="pic-1.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Pintu kumar</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="review" id="review">
+    <div class="review-slider">
+        <div class="wrapper">
+            <div class="box">
+                <img src="pic-3.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Ravi kumar</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="review" id="review">
+    <div class="review-slider">
+        <div class="wrapper">
+            <div class="box">
+                <img src="pic-4.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Ritika kumari</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
+
+
+csss
+
+
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 3.5rem;
+    padding-bottom: 3rem;
+    color: black;
+}
+
+.heading span{
+    background: red;
+    color: white;
+    display: inline-block;
+    padding: .5rem;
+    clip-path: polygon(100% 0,93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+
+.review .review-slider{
+    border: 1px solid;
+    padding: 1rem;
+    height: 450px;
+    width: 400px;
+}
+
+
+.review .review-slider .box{
+    border: 1px solid red;
+    border-radius: 5rem;
+    background: #fff;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: green;
+
+    transition: .2rem linear;
+}
+
+.review .review-slider .box:hover{
+    box-shadow: 1px 1px 10px 4px green;
+}
+
+.review .review-slider .box img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.review .review-slider .box p{
+    padding: 1rem 0;
+    color: black;
+}
+
+.review .review-slider .box h3{
+    padding: .5rem;
+    color: black;
+    font-size: 2.2rem;
+
+}
+
+.review .review-slider .box stars i{
+    color: orange;
+    font-size: 1.7rem;
+}
+
+
